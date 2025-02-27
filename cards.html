@@ -26,7 +26,7 @@
         }
 
         .current-price{
-            font-size: 22px;
+            font-size: 25px;
         }
 
         .buy-now{
@@ -50,7 +50,7 @@
         .card-2{
             background-color: white;
             width: 250px;
-            height: 250px;
+            height: 280px;
             padding: 10px;
             border: 2px solid black;
         }
@@ -58,9 +58,15 @@
         .twitter{
             display: block;
              margin: 0 auto;
-             width: 80px; 
-           
-        }
+            width: 80px;
+         } 
+         
+         .twitter-h{
+            margin-left: 10px;
+            margin-right: 10px;
+            text-align: center;
+         }
+    
         .read{
             display: block;
             background-color:black;
@@ -135,11 +141,45 @@
 
         }
 
+        .card-4{
+            background-color: lightcyan;
+            border-radius: 15px;
+           height: 480px;
+           width: 280px;
+           padding: 10px;
+           border: 2px solid black;
+           margin-top: 10px;
+           box-shadow: 1px 1px 2px 2px gray;
+
+        }
+
+        .card-4 img{
+            width: 280px;
+            height: 180px;
+            margin-bottom: 5px;
+
+        }
+
+        .add{
+            margin-left: 60px;
+            background-color: yellowgreen;
+            color:black;
+            padding:10px 25px;
+            cursor: pointer;
+            border-radius: 5px;
+            border-width: 5px;
+            border: 2px solid;
+            box-shadow: 1px 1px 2px 2px gray;    
+
+        }
+
+        
+
     </style>
 </head>
 <body>
     <div class="card">
-        <img src="shoe.png" alt="shoe img" class="shoes">
+        <img src="./img/shoe.png" alt="shoe img" class="shoes">
 
         <span class="heading">ADDIDAS gaze ZX</span> <br>
     
@@ -156,6 +196,8 @@
     <div class="card-2">
         <img src="twitter.png" class="twitter" >
 
+        <h2 class="twitter-h"> TWITTER</h2>
+
         <p>Twitter, officially known as X since 2023, is a social networking service. It is one of the world's largest social media platforms.</p>
 
         <button class="read" textalign="center">Read more </button>
@@ -163,7 +205,7 @@
     <br>
 
     <div class="card-3">
-    <img src="Strawberry-og.jpg" alt="str" class="str">
+    <img src="./img/Strawberry-og.jpg" alt="str" class="str">
 
     <h2>Strawberries</h2>
 
@@ -172,11 +214,32 @@
    <h3><b>Quantity:</b></h3>
    <div class="quantity-container">
    <input type="number" class="quantity-input" value="1" min="1" max="100">
+   </div>
    <br>
 
   <b> price:</b> ₹75.00 per kg <br><br>
 
   <button class="btn-cart">Add to cart</button>
+
+ </div>
+
+ <div class="card-4">
+    <img src="./img/head.png" alt="headphone">
+    <h2>Wireless bluetooth headset</h2>
+
+    <p>Boult Q 70Hrs Battery, ENC Mic, 40mm Boosted Drivers, 4 EQ Modes, Supreme Bass, 5.4v Bluetooth & Wired  (Black, On the Ear)</p> 
+
+    <p><b> price:</b> <span class="current-price">₹1999/-</span><del>₹ 5999/-</del></p>
+    <div>
+        <h4>Free delivery</h4>
+    </div>
+
+    <button class="add">Add to cart</button>
+
+
+    
+
+  
   
  </div>
   
