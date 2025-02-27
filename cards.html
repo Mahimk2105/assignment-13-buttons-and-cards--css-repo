@@ -39,6 +39,12 @@
             cursor: pointer;
             border-radius: 0;
             border-width: 5px;
+            box-shadow:1px 1px 2px 2px  #FFB22C;
+
+        }
+        .buy-now:hover {
+        background-color:yellow;
+        color: black;
         }
 
         .card-2{
@@ -65,9 +71,70 @@
             border-radius: 40px;
             border: 3px double whitesmoke;
             margin-left: 60px;
-            box-shadow:1px 1px 2px 2px gray;
+            box-shadow:1px 1px 2px 2px black;
 
         }
+
+        .card-3{
+            background-color: white;
+            border-radius: 10px;
+           height: 460px;
+           width: 250px;
+           padding: 10px;
+           border: 3px solid rgb(182, 64, 64);
+
+        }
+
+        .str{
+            width: 200px;
+            height: 150px;
+            margin-bottom: 5px;
+            display: block;
+            margin: 0 auto 10px;
+            border-radius: 50%;
+            box-shadow:1px 1px 2px 2px rgb(174, 75, 75);
+
+        }
+
+        .card-3 h2{
+            margin: 0;
+            font-size: 1.5em;
+            text-align: center;
+
+        }
+
+        .card-3 p{
+            text-align: center;
+        }
+        .quantity-container{
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quantity-input {
+            width: 50px;
+            height: 30px;
+            font-size: 20px; display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #007bff;
+            border-radius: 5px;
+            outline: none;
+
+        }
+
+        .btn-cart{
+            margin-left: 50px;
+            background-color: #FFB22C;
+            color:black;
+            padding:10px 25px;
+            cursor: pointer;
+            border-radius: 0;
+            border-width: 5px;
+            border: 2px solid black;
+
+        }
+
     </style>
 </head>
 <body>
@@ -93,8 +160,26 @@
 
         <button class="read" textalign="center">Read more </button>
     </div>
-    
-    
+    <br>
+
+    <div class="card-3">
+    <img src="Strawberry-og.jpg" alt="str" class="str">
+
+    <h2>Strawberries</h2>
+
+    <p>The garden Strawberry is a widely grown hybrid species of the genus Fragaria. It is cultivated worldwide for its fruit.</p>
+
+   <h3><b>Quantity:</b></h3>
+   <div class="quantity-container">
+   <input type="number" class="quantity-input" value="1" min="1" max="100">
+   <br>
+
+  <b> price:</b> ₹75.00 per kg <br><br>
+
+  <button class="btn-cart">Add to cart</button>
+  
+ </div>
+  
 
 </body>
 </html>
